@@ -21,6 +21,8 @@ class Strings{
 --> compiler checks whther "Lari" is already present in string constant pool or not
 -->as "Lari" is already present in string constant pool , compiler just gives the address of "Lari" to name1
 -->NO 2 objects with same value will be created in string constant pool
- */
+ 
+*/
  }
 }
+// Testing my green contribution graph square
