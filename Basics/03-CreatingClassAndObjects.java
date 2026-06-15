@@ -1,3 +1,8 @@
+//package Basics;
+
+// import Calculator;
+
+//package Basics;
 class Calculator
  { 
    int a;//what object knows : data
@@ -6,7 +11,7 @@ class Calculator
         return num1 + num2;
      }
  }
-public class CreatingClassAndObjects {
+ class CreatingClassAndObjects {
        public static void main(String[] args) {
         int num1=10;
         int num2=5;

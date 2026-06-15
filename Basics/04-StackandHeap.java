@@ -1,3 +1,4 @@
+//package Basics;
 class Calculator
 {
 	int num=5; //instance variable or non static variable or field
@@ -10,16 +11,14 @@ class Calculator
 		return n1+n2; 
 	}
 }
-
-
-public class StackandHeap {
-	public static void main(String[] args) 
-		int data=10; //local variable but why? because it is created when the main method is called and destroyed when the main method is exited
+class StackandHeap {
+	public static void main(String[] args) {
+		//int data=10; //local variable but why? because it is created when the main method is called and destroyed when the main method is exited
 		Calculator obj=new Calculator(); //obj is not object its a reference variable
 		                                 // first it is created inside heap like a box with rows and has address
 										 // then this obj is stroed in stack with its address as its value and this address is used to access the object in heap memory
 		Calculator obj1=new Calculator();//different table and address for this in heap
-		int r1=obj.add(3,4); //local variable
+		//int r1=obj.add(3,4); //local variable
 		//System.out.println(r1);
 		obj.num=8;       // breaking glass of one samsung phone doesnt break all other samsung phones glasses 
 		                // samsung is num and each phone is obj

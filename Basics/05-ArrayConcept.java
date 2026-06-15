@@ -1,5 +1,7 @@
+//package Basics;
 import java.lang.Math; //importing math class from java.lang package
-public class ArrayConcept {
+//import java.util.Random;
+class ArrayConcept {
    public static void main (String args[]){
        int nums[][]=new int[3][4]; //declaration and instantiation of array
 
