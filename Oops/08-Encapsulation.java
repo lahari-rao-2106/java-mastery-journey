@@ -39,7 +39,7 @@ class Human
     
 }
 
-public class Encapsulation {
+class Encapsulation {
 	public static void main(String[] args) throws ClassNotFoundException
 	{Human obj=new Human();
         obj.age=11;                    //how we access normal variables

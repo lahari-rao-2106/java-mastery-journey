@@ -39,8 +39,7 @@ class Human
 //	}
 
 }
-
-public class This {
+class This {
 	public static void main(String[] args) throws ClassNotFoundException
 	{
 		Human obj=new Human();
