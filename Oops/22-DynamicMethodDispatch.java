@@ -24,7 +24,7 @@ class DynamicMethodDispatch{
 
         A_ obj1=new B_(); // parent reference , child obj
                         // data type of obj1 is A
-                        //implementation is From B clas
+                        //implementation is From B clas but implements only the items present in A , we cannot implement show2() in this case
                         // also known as upcasting
         obj1.show();
         

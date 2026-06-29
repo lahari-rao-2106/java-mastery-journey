@@ -20,7 +20,7 @@ class Casting {
         A_ obj = new B_();
         obj.show(); //  method overridden 
         obj.show1() ; // inheritance 
-       // obj.show2(); its error cause obj is of A class and it doesnt know show2() method
+       //obj.show2(); // its error cause obj is of A class and it doesnt know show2() method
         System.out.println();
 
 
