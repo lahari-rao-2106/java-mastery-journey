@@ -1,9 +1,9 @@
 package Oops;
-import Oops.DynamicMethodDispatch;
+//import Oops.DynamicMethodDispatch;
 
 class Casting {
     public static void main(String[] args) {
-        B_ obj2= new B_(); //B class refrence , B class object 
+        N obj2= new N(); //B class refrence , B class object 
         obj2.show(); //method overridden 
         obj2.show1() ; // inheritance 
         obj2.show2(); // its own method 
@@ -17,14 +17,14 @@ class Casting {
         --> above syntax is wrong 
         --> its to be done as mentioned below
         */
-        A_ obj = new B_();
+        M obj = new N();
         obj.show(); //  method overridden 
         obj.show1() ; // inheritance 
        //obj.show2(); // its error cause obj is of A class and it doesnt know show2() method
         System.out.println();
 
 
-        B_ obj3=(B_)obj; // explicitly we must mention 
+        N obj3=(N)obj; // explicitly we must mention 
         obj3.show(); //method overridden 
         obj3.show1() ; // inheritance 
         obj3.show2(); // its own method 
