@@ -1,7 +1,7 @@
 package AdvanceJava;
 
 public @Deprecated
-class P
+class Annotations
 {
 	public void showTheDataWhichBelongsToThisClass()
 	{
@@ -9,7 +9,7 @@ class P
 	}
 }
 
-class B extends P 
+class B extends Annotations 
 {
 	@Override
 //	public void showTheDataWhichBelongToThisClass()
