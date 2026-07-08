@@ -1,4 +1,4 @@
-package AdvanceJava;
+
 /*
 -->Abstract methods can only be defined in abstract class 
 --> abstract methods are used if we dont want to define the implementation in parent class 

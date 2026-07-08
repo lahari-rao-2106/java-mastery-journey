@@ -1,4 +1,4 @@
-package AdvanceJava;
+
 
 public @Deprecated
 class Annotations

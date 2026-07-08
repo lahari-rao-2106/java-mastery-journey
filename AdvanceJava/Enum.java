@@ -1,4 +1,4 @@
-package AdvanceJava;
+
 enum Status{
     Running , Loading , Pending , Successful; // these are objects 
                                               // also refered NAMED CONSTANTS 

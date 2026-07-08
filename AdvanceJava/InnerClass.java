@@ -1,4 +1,4 @@
-package AdvanceJava;
+
 /*
 -->Inner class means a class inside a class 
 -->and to call a class belonging to a class , we must take help of the object 

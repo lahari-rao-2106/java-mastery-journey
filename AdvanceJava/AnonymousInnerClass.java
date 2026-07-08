@@ -1,4 +1,4 @@
-package AdvanceJava;
+
 
 
 abstract class A

@@ -1,4 +1,4 @@
-package AdvanceJava;
+//package AdvanceJava;
 
 /*Types of Interface:-
 1. Normal interface
