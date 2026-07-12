@@ -26,7 +26,7 @@ class B implements A{
       System.out.println("From class B");
 	}
 }
-public class DemoInterface{
+class DemoInterface{
 	public static void main(String args[]){
 		A object = new B();
 		//object.age=16;

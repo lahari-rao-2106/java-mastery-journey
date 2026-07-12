@@ -20,7 +20,7 @@ interface A{
 interface B{
     int add(int i,int j);
 }
-public class LambdaExpressions {
+class LambdaExpressions {
     public static void main(String args[]){
     A obj = ()->
     {
