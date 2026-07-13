@@ -1,5 +1,7 @@
 /*
-The throw keyword in Java is used to explicitly throw an exception during the execution of a program. It creates an exception object and transfers control to the nearest matching catch block or to the JVM if the exception is not handled.
+The throw keyword in Java is used to explicitly throw an exception
+ during the execution of a program. It creates an exception object and transfers 
+ control to the nearest matching catch block or to the JVM if the exception is not handled.
 */
 class Demo {
 
