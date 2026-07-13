@@ -65,7 +65,7 @@ class Exceptions {
      catch(ArithmeticException e)
      { System.out.println("Arithemetic exception arises");}
      catch(ArrayIndexOutOfBoundsException e)
-     {System.out.println("Saty in your limits");}
+     {System.out.println("Stay in your limits");}
      catch(Exception e){     //good practice to catch unknown error 
         System.out.println("Unknown runtime error"+e);
      }
