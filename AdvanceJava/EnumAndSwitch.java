@@ -1,6 +1,6 @@
 
 
-public class EnumAndSwitch {
+class EnumAndSwitch {
     
 }
 enum Status{
