@@ -12,7 +12,26 @@
 class Thread_1 extends Thread{
     public void run(){
         for(int i =0 ;i<5;i++)
-            System.out.println("hi");
+            System.out.println("Thread-1 is running");
     } 
+
+}
+
+class Thread_2 extends Thread {
+    public void run(){
+        for(int j=0 ; j<5 ; j++)
+            System.out.println("Thread-2 is running");
+
+    }
+}
+
+class ThreadPractice {
+    public static void main(String[] args) {
+        Thread_1 t1 = new Thread_1();
+        Thread_2 t2 = new Thread_2();
+
+        t1.start();
+        t2.start();
+    }
 
 }
