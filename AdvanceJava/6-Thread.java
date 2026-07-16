@@ -5,8 +5,13 @@
 -->this sub class must contain run() method , which is invoked with start() method 
 -->run() method belongs to runnable interface and its an functional interface (contains single method)
 
-============ Errors i made ==========
+============ Errors i made ================
 1) run method must be public
+
+=========== Things i understood ===========
+1) so both the threads t1 , t2 do run simultaneously 
+2) the execution is so fast that by the time main program goest to t2.start , t1 completes its task
+3) difference can be observed when loop iterates for 100 times
 */
 
 class Thread_1 extends Thread{
