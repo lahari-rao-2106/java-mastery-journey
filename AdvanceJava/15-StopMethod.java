@@ -19,7 +19,7 @@ class MyThread extends Thread {
     }
 }
 
-public class StopMethod {
+class StopMethod {
 
     public static void main(String[] args) {
 
