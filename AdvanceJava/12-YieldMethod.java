@@ -24,7 +24,7 @@ class Thread2 implements Runnable {
     }
 }
 
-public class YieldMethod {
+class YieldMethod {
 
     public static void main(String[] args) {
 
